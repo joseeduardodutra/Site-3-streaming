@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming de Filmes - Planos de Assinatura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Streaming de Filmes</h1>
+        <nav>
+            <a href="signup.html">Cadastro</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="plans">
+            <h2>Escolha seu Plano de Assinatura</h2>
+            <div class="plan-container">
+                <div class="plan">
+                    <h3>Básico</h3>
+                    <p>Assista em uma tela por vez com qualidade padrão.</p>
+                    <p><strong>R$19,90/mês</strong></p>
+                    <button onclick="choosePlan('Básico')">Escolher Plano</button>
+                </div>
+                <div class="plan">
+                    <h3>Padrão</h3>
+                    <p>Assista em até duas telas ao mesmo tempo em HD.</p>
+                    <p><strong>R$29,90/mês</strong></p>
+                    <button onclick="choosePlan('Padrão')">Escolher Plano</button>
+                </div>
+                <div class="plan">
+                    <h3>Premium</h3>
+                    <p>Assista em até quatro telas ao mesmo tempo em Ultra HD.</p>
+                    <p><strong>R$49,90/mês</strong></p>
+                    <button onclick="choosePlan('Premium')">Escolher Plano</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Streaming de Filmes</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

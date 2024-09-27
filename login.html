@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Streaming de Filmes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Login - Streaming de Filmes</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="signup.html">Cadastro</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login">
+            <h2>Entre na sua conta</h2>
+            <form id="login-form" onsubmit="return validateLoginForm()">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Entrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Streaming de Filmes</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
